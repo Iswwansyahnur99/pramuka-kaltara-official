@@ -24,6 +24,28 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				
+				// Scout Brand Colors
+				'scout-brown': {
+					DEFAULT: 'hsl(var(--scout-brown))',
+					light: 'hsl(var(--scout-brown-light))',
+					dark: 'hsl(var(--scout-brown-dark))'
+				},
+				'scout-maroon': {
+					DEFAULT: 'hsl(var(--scout-maroon))',
+					light: 'hsl(var(--scout-maroon-light))',
+					dark: 'hsl(var(--scout-maroon-dark))'
+				},
+				'scout-green': {
+					DEFAULT: 'hsl(var(--scout-green))',
+					light: 'hsl(var(--scout-green-light))',
+					dark: 'hsl(var(--scout-green-dark))'
+				},
+				'scout-gold': {
+					DEFAULT: 'hsl(var(--scout-gold))',
+					light: 'hsl(var(--scout-gold-light))'
+				},
+				
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -62,6 +84,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				inter: ['Inter', 'sans-serif'],
+				playfair: ['Playfair Display', 'serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
